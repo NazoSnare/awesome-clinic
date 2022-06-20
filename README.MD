@@ -32,3 +32,5 @@ The structures below allow for easier reuse of code and ensuring uniformity amon
 - xx.test.js - test file for the unit testing of the components
 The idea is to test the individual components and the screens to not have any logic. As seen above
 
+# I have uncommented the test file code as It had been long since using react native and I see now that some of the functionalities and libraries have updated and some codes deprecated...however it is nothing one can't be familiar with in a day.
+
