@@ -17,7 +17,7 @@ const ClinicButton = (props) => {
   };
 
     return (
-      <StyledClinicButton onPress={() => { onPressDo()}}  {...props}>
+      <StyledClinicButton testID='clinicButton' onPress={() => { onPressDo()}}  {...props}>
         <ClinicText isBold={isBold} color={props.textColor ?? null} value={props.text ?? 'Clinic Button'} />
     </StyledClinicButton>
     );

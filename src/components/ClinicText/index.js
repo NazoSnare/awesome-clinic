@@ -3,7 +3,7 @@ import { StyledClinicText } from './ClinicText.styles';
 
 const ClinicText = (props) => {
     return (
-       <StyledClinicText {...props}>
+       <StyledClinicText testID='clinicText' {...props}>
          {props.value}
        </StyledClinicText>
     );
